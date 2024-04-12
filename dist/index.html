@@ -1,18 +1,16 @@
-<!DOCTYPE html><html lang="en"><head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My amazing app</title>
-        <link rel="stylesheet" href="/main-e2a14bb6946431af.css" integrity="sha384-pJOyryT7_8UWKzW_PnSOQ--ArPvOdUkfnykG_iIRFEoGWmq4o7vL_Sx4XYJssj0u">
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Tauri + Yew App</title>
+    <link rel="stylesheet" href="/styles-9dc2f689f0290d19.css" integrity="sha384-I4Okh8E_EX0Za1o4E5ysQ6fEB26nHsMfDy_QNFaOWPHWgAaXwdhbf4PtLhnIcb90">
     
-<link rel="preload" href="/penumbra-c09fe0ab4a1bcdf2_bg.wasm" crossorigin="anonymous" integrity="sha384--9Lj8Ox21GoYGCIiPBxfni8SXDBprTK5ul6_xiGRN5W3HODXvQS5w6fcBeqNzOie" as="fetch" type="application/wasm">
-<link rel="modulepreload" href="/penumbra-c09fe0ab4a1bcdf2.js" crossorigin="anonymous" integrity="sha384-BGU-_pBqxhiU9NjfPO1RBwtMX-E-ABcTts1iS9YTix0p5tgWoPJu_uvNqndslxg1"></head>
-    <body>
-    
-
+  
+<link rel="preload" href="/penumbra-ui-642eada84bb0cfb9_bg.wasm" crossorigin="anonymous" integrity="sha384-LUz5UV7-5ZaNldkU8e16t5cQ1O5bJGP8bWUzboUli05lWQLI0j1MM0FcumY2HpN6" as="fetch" type="application/wasm">
+<link rel="modulepreload" href="/penumbra-ui-642eada84bb0cfb9.js" crossorigin="anonymous" integrity="sha384-YPH6oHfY7Yr1kRdgcCNx92A821Sx3FW-EqeV1rHPuZ9MD8ATshhtZx-l6-4yks_l"></head>
+<body>
 
 <script type="module">
-import init, * as bindings from '/penumbra-c09fe0ab4a1bcdf2.js';
-init('/penumbra-c09fe0ab4a1bcdf2_bg.wasm');
+import init, * as bindings from '/penumbra-ui-642eada84bb0cfb9.js';
+init('/penumbra-ui-642eada84bb0cfb9_bg.wasm');
 window.wasmBindings = bindings;
 
 </script><script>"use strict";

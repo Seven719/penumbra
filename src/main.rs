@@ -1,14 +1,8 @@
-use yew::prelude::*;
+mod app;
 
-#[function_component]
-fn App() -> Html {
-    html!(
-    <div>
-        <h1>{"Hello"}</h1>
-    </div>
-)
-}
+use app::App;
 
 fn main() {
+    console_error_panic_hook::set_once();
     yew::Renderer::<App>::new().render();
 }
